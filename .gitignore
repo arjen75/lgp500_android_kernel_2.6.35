@@ -1,0 +1,6 @@
+*.o
+*.o.cmd
+*.ko
+.tmp_versions
+arch/arm/boot/Image
+arch/arm/boot/zImage

@@ -1,0 +1,10 @@
+--- block/Makefile	2011-06-08 18:56:27.207398810 +0900
++++ block/Makefile	2011-06-10 08:13:28.692279396 +0900
+@@ -12,6 +12,7 @@
+ obj-$(CONFIG_IOSCHED_NOOP)	+= noop-iosched.o
+ obj-$(CONFIG_IOSCHED_DEADLINE)	+= deadline-iosched.o
+ obj-$(CONFIG_IOSCHED_CFQ)	+= cfq-iosched.o
++obj-$(CONFIG_IOSCHED_SIO)  += sio-iosched.o
+ obj-$(CONFIG_IOSCHED_BFQ)	+= bfq-iosched.o
+ 
+ obj-$(CONFIG_BLOCK_COMPAT)	+= compat_ioctl.o
